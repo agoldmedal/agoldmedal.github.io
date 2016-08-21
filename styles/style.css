@@ -36,3 +36,15 @@ a:visited {
   color: green;
   font-size: 55px;
 }
+#about-me:active {
+  color: red;
+  font-size: 55px;
+}
+#resume:active {
+  color: blue;
+  font-size: 55px;
+}
+#contact-me:active {
+  color: green;
+  font-size: 55px;
+}
