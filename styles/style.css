@@ -1,8 +1,38 @@
-h1 {
-  font-family: 'Bungee Shade', cursive;
-  font-size: 80px;
+html {
+  background-color: rgb(34, 34, 34);
+  margin: 0px;
 }
-p {
-  font-family: 'Pattaya', sans-serif;
+body {
+  margin: 0px;
+}
+span {
+  width: 100%;
+  height: 24px;
+  display:block;
+  background-color: red;
+}
+ul {
+  color: white;
+  display: block;
+  list-style: none;
+  font-family: 'Anton', sans-serif;
+  font-size: 50px;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+}
+#about-me:hover {
   color: red;
+  font-size: 55px;
+}
+#resume:hover {
+  color: blue;
+  font-size: 55px;
+}
+#contact-me:hover {
+  color: green;
+  font-size: 55px;
 }
