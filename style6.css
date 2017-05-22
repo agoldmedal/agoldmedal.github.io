@@ -70,37 +70,29 @@ p {
   text-align: center;
 }
 
-form {
-  padding: 5%;
-  padding-left: 25%;
-  font-size: 4vw;
-  font-weight: 100;
-  color: rgb(0, 0, 0);
-}
-
-form label {
-  display: block;
+a {
   color: rgb(255, 255, 255);
 }
 
-input, textarea, button {
-  display: block;
-  font-size: 4vw;
-  font-weight: 100;
+a:link {
+  color: rgb(255, 255, 255);
 }
 
-input {
-  width: 70%;
+a:visited {
+  color: rgb(255, 255, 255);
 }
 
-textarea {
-  font-size: 2vw;
-  width: 70%;
-  height: 200px;
+a:focus {
+  font-size: 4.2vw;
+  color: rgb(255, 255, 255);
 }
 
-button {
-  font-size: 4vw;
-  font-weight: 100;
-  margin-top: 5%;
+a:hover {
+  font-size: 4.2vw;
+  color: rgb(255, 255, 255);
+}
+
+a:active {
+  font-size: 4.2vw;
+  color: rgb(255, 255, 255);
 }
