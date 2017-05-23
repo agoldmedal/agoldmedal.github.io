@@ -1,3 +1,2 @@
 # alexander-john.github.io
-Personal Page
-Working with Git and understanding how this technology works. Getting pretty good to be honest. 
+Personal Page with Git and understanding how it works. Getting pretty good. 
