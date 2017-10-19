@@ -1,38 +1,29 @@
 body {
   background : #00305A;
   background : rgba(0, 48, 90, 1);
-  overflow: hidden;
+}
+
+main {
+  margin: 6% 20%;
+  color: white;
+  font-family: 'Yantramanav', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 40px;
 }
 
 p {
-  position: relative;
-  width: 100%;
-}
-
-nav {
-  position: relative;
-  width: 100%;
-}
-
-ul {
-  list-style: none;
-  position: inherit;
-  padding-left: 10%;
-  padding-right: 10%;
-}
-
-li {
-  display: inline-block;
-  width: 40%;
+  
 }
 
 a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: inherit;
   color: inherit;
   text-decoration: none;
+  padding: 5px 50px;
+}
+
+#git-button {
+  padding: 5px 85px;
 }
 
 a:link {
@@ -47,26 +38,15 @@ a:hover {
 a:active {
 }
 
-article {
-  width: 80%;
-  height: 100%;
-  position: relative;
-  padding-right: 10%;
-  padding-left: 10%;
-  padding-top: 5%;
-  color: white;
-  font-family: 'Yantramanav', sans-serif;
-  font-weight: 100;
-  font-size: 4vw;
-  text-align: center;
+main {
 }
 
 .button {
-  border: .2vw solid rgba(76, 172, 255, 0.35);
+  border: 1px solid rgba(76, 172, 255, 0.35);
   transition: 0.5s;
 }
 
 .button:hover {
-  border: .2vw solid rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0);
   background-color: rgba(76, 172, 255, 0.35);
 }
