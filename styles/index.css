@@ -1,52 +1,41 @@
 body {
-  background : #00305A;
-  background : rgba(0, 48, 90, 1);
+  color: #555;
+  font-family: "Helvetica", "Arial", sans-serif;
+  line-height: 1.5;
+  padding: 4em 1em;
+  font-size: 23px;
 }
 
 main {
-  margin: 20% 10%;
-  color: white;
-  font-family: 'Yantramanav', sans-serif;
-  font-weight: 400;
-  text-align: center;
-  font-size: 40px;
+  margin: 0 auto;
+  max-width: 30em;
+}
+
+h1 {
+  font-size: 19px;
+}
+
+.italic-title-text {
+  font-style: italic;
+}
+
+.title-text {
+  font-size: 20px;
+}
+
+.title-name {
+  font-size: 25px;
+}
+
+q {
+  font-style: italic;
 }
 
 p {
-
+  font-size: 18px;
 }
 
 a {
   color: inherit;
-  text-decoration: none;
-  padding: 5px 50px;
-}
-
-#git-button {
-  padding: 5px 85px;
-}
-
-a:link {
-}
-
-a:visited {
-}
-
-a:hover {
-}
-
-a:active {
-}
-
-main {
-}
-
-.button {
-  border: 1px solid rgba(76, 172, 255, 0.35);
-  transition: 0.5s;
-}
-
-.button:hover {
-  border: 1px solid rgba(0, 0, 0, 0);
-  background-color: rgba(76, 172, 255, 0.35);
+  font-size: 20px;
 }
