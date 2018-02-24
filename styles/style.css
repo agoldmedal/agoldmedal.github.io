@@ -4,10 +4,9 @@ body {
   font-family: arial, sans-serif;
   padding-top: 80px;
   margin: 0 auto;
-  max-width: 800px;
+  max-width: 420px;
   font-size: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding: 0 40px;
 }
 
 .font-color {
@@ -28,8 +27,8 @@ ul {
   margin: 0;
 }
 
-li {
-  display: inline;
+.navigation li {
+  display: inline-block;
   list-style: none;
   padding-right: 10px;
 }
