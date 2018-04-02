@@ -54,6 +54,7 @@ body {
 }
 
 nav {
+  z-index: 1;
   background-color: blue;
   position: fixed;
   left: 0;
@@ -74,7 +75,7 @@ nav {
   font-size: 24px;
   padding-bottom: 5px;
 }
- 
+
 section {
   margin: auto;
   padding-top: 60px;
